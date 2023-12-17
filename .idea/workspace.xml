@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71607a4f-c03a-4b05-98a6-68c3e2c899e6" name="Changes" comment="init Test-course add Les1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson2/VehicleTest.java" afterDir="false" />
+    <list default="true" id="71607a4f-c03a-4b05-98a6-68c3e2c899e6" name="Changes" comment="add Les2 Vehicle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +158,14 @@
       <option name="presentableId" value="Default" />
       <updated>1702294990519</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Les2 Vehicle">
+      <created>1702802940754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702802940754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init Test-course add Les1" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Test-course add Les1" />
+    <MESSAGE value="add Les2 Vehicle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Les2 Vehicle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
