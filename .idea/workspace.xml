@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71607a4f-c03a-4b05-98a6-68c3e2c899e6" name="Changes" comment="b">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/task2/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/task2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/task2/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson1/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson1/task2/ShopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="71607a4f-c03a-4b05-98a6-68c3e2c899e6" name="Changes" comment="init Test-course add Les1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson2/VehicleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit3 Test Class" />
       </list>
@@ -67,81 +58,86 @@
       <recent name="lesson1.task2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson2" />
       <recent name="lesson1.task2" />
       <recent name="lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Shop">
-    <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.task2.Shop" />
+  <component name="RunManager" selected="JUnit.VehicleTest">
+    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.task2.*" />
+          <option name="PATTERN" value="lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson1.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson1" />
-      <option name="MAIN_CLASS_NAME" value="lesson1.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="lesson2" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.testExampleVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.task2.*" />
+          <option name="PATTERN" value="lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson1.task2" />
-      <option name="MAIN_CLASS_NAME" value="lesson1.task2.ShopTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopTest.testGetMostExpensiveProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson1.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson1.task2" />
-      <option name="MAIN_CLASS_NAME" value="lesson1.task2.ShopTest" />
-      <option name="METHOD_NAME" value="testGetMostExpensiveProduct" />
+      <option name="PACKAGE_NAME" value="lesson2" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
+      <option name="METHOD_NAME" value="testExampleVehicle(lesson2.Vehicle)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopTest.testSortProductsByPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.testNumWheels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.task2.*" />
+          <option name="PATTERN" value="lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson1.task2" />
-      <option name="MAIN_CLASS_NAME" value="lesson1.task2.ShopTest" />
-      <option name="METHOD_NAME" value="testSortProductsByPrice" />
+      <option name="PACKAGE_NAME" value="lesson2" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
+      <option name="METHOD_NAME" value="testNumWheels(lesson2.Vehicle)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTest.testPark (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson2" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
+      <option name="METHOD_NAME" value="testPark(lesson2.Vehicle)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTest.testTestDrive (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson2" />
+      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
+      <option name="METHOD_NAME" value="testTestDrive(lesson2.Vehicle)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Shop" />
-        <item itemvalue="JUnit.ShopTest" />
-        <item itemvalue="JUnit.ShopTest.testGetMostExpensiveProduct" />
-        <item itemvalue="JUnit.ShopTest.testSortProductsByPrice" />
-        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.VehicleTest" />
+        <item itemvalue="JUnit.VehicleTest.testExampleVehicle" />
+        <item itemvalue="JUnit.VehicleTest.testTestDrive (1)" />
+        <item itemvalue="JUnit.VehicleTest.testNumWheels" />
+        <item itemvalue="JUnit.VehicleTest.testPark (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -179,18 +175,31 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init Test-course add Les1" />
+    <option name="LAST_COMMIT_MESSAGE" value="init Test-course add Les1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/lesson1/task2/Shop.java</url>
-          <line>28</line>
+          <line>43</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/lesson1/task2/ShopTest.java</url>
           <line>16</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/lesson2/VehicleTest.java</url>
+          <line>50</line>
+          <properties class="lesson2.VehicleTest" method="testTestDrive">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
