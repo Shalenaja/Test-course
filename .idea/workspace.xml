@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71607a4f-c03a-4b05-98a6-68c3e2c899e6" name="Changes" comment="add Les2 Vehicle">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/task3/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/task3/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson3/NumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson3/task3/UserRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,86 +59,84 @@
       <recent name="lesson1.task2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson3.task3" />
+      <recent name="lesson3" />
       <recent name="lesson2" />
       <recent name="lesson1.task2" />
       <recent name="lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleTest">
-    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserRepositoryTest">
+    <configuration name="UserRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.task3.UserRepository" />
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson3.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson2" />
-      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.NumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest.testExampleVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberTest.testNumberInIntervalNot (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson2" />
-      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
-      <option name="METHOD_NAME" value="testExampleVehicle(lesson2.Vehicle)" />
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.NumberTest" />
+      <option name="METHOD_NAME" value="testNumberInIntervalNot(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest.testNumWheels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson3.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson2" />
-      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
-      <option name="METHOD_NAME" value="testNumWheels(lesson2.Vehicle)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="lesson3.task3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.task3.UserRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest.testPark (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTest.testNotAuthenticate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson3.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson2" />
-      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
-      <option name="METHOD_NAME" value="testPark(lesson2.Vehicle)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleTest.testTestDrive (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson2" />
-      <option name="MAIN_CLASS_NAME" value="lesson2.VehicleTest" />
-      <option name="METHOD_NAME" value="testTestDrive(lesson2.Vehicle)" />
+      <option name="PACKAGE_NAME" value="lesson3.task3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.task3.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="testNotAuthenticate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VehicleTest" />
-        <item itemvalue="JUnit.VehicleTest.testExampleVehicle" />
-        <item itemvalue="JUnit.VehicleTest.testTestDrive (1)" />
-        <item itemvalue="JUnit.VehicleTest.testNumWheels" />
-        <item itemvalue="JUnit.VehicleTest.testPark (1)" />
+        <item itemvalue="JUnit.UserRepositoryTest" />
+        <item itemvalue="JUnit.UserRepositoryTest.testNotAuthenticate" />
+        <item itemvalue="Application.UserRepository" />
+        <item itemvalue="JUnit.NumberTest" />
+        <item itemvalue="JUnit.NumberTest.testNumberInIntervalNot (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,5 +211,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/homeworks$NumberTest.ic" NAME="NumberTest Coverage Results" MODIFIED="1702819270378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lesson3.*</FILTER>
+    </SUITE>
   </component>
 </project>
