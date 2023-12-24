@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71607a4f-c03a-4b05-98a6-68c3e2c899e6" name="Changes" comment="add Les2 Vehicle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/task3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/task3/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson3/NumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson3/task3/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/InMemoryBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_4/BookServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,53 +60,56 @@
       <recent name="lesson1.task2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson_4" />
       <recent name="lesson3.task3" />
       <recent name="lesson3" />
       <recent name="lesson2" />
       <recent name="lesson1.task2" />
-      <recent name="lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTest">
-    <configuration name="UserRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.task3.UserRepository" />
+  <component name="RunManager" selected="JUnit.BookServiceTest">
+    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.task3.*" />
+          <option name="PATTERN" value="lesson_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homeworks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.NumberTest" />
+      <option name="PACKAGE_NAME" value="lesson_4" />
+      <option name="MAIN_CLASS_NAME" value="lesson_4.BookServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberTest.testNumberInIntervalNot (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest.testBookServiceWithMockRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="lesson_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.NumberTest" />
-      <option name="METHOD_NAME" value="testNumberInIntervalNot(int)" />
+      <option name="PACKAGE_NAME" value="lesson_4" />
+      <option name="MAIN_CLASS_NAME" value="lesson_4.BookServiceTest" />
+      <option name="METHOD_NAME" value="testBookServiceWithMockRepository" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.testBookServiceWithMockRepository2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_4" />
+      <option name="MAIN_CLASS_NAME" value="lesson_4.BookServiceTest" />
+      <option name="METHOD_NAME" value="testBookServiceWithMockRepository2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,29 +130,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest.testNotAuthenticate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson_4 in homeworks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.task3.*" />
+          <option name="PATTERN" value="lesson_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson3.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.task3.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="testNotAuthenticate" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="lesson_4" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookServiceTest" />
+        <item itemvalue="JUnit.BookServiceTest.testBookServiceWithMockRepository" />
+        <item itemvalue="JUnit.BookServiceTest.testBookServiceWithMockRepository2" />
+        <item itemvalue="JUnit.lesson_4 in homeworks" />
         <item itemvalue="JUnit.UserRepositoryTest" />
-        <item itemvalue="JUnit.UserRepositoryTest.testNotAuthenticate" />
-        <item itemvalue="Application.UserRepository" />
-        <item itemvalue="JUnit.NumberTest" />
-        <item itemvalue="JUnit.NumberTest.testNumberInIntervalNot (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +201,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/lesson1/task2/ShopTest.java</url>
           <line>16</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lesson_4/BookServiceTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/lesson2/VehicleTest.java</url>
