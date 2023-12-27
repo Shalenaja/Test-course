@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71607a4f-c03a-4b05-98a6-68c3e2c899e6" name="Changes" comment="add Les2 Vehicle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_4/InMemoryBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_4/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ListNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ListNumberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_6/ListNumberServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit3 Test Class" />
       </list>
     </option>
@@ -46,10 +43,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/homeworks",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/untitled",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -57,100 +55,104 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="lesson_6" />
       <recent name="lesson1.task2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson_6" />
       <recent name="lesson_4" />
       <recent name="lesson3.task3" />
       <recent name="lesson3" />
       <recent name="lesson2" />
-      <recent name="lesson1.task2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookServiceTest">
-    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ListNumberServiceTest">
+    <configuration name="ListNumberServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_4.*" />
+          <option name="PATTERN" value="lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_4" />
-      <option name="MAIN_CLASS_NAME" value="lesson_4.BookServiceTest" />
+      <option name="PACKAGE_NAME" value="lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="lesson_6.ListNumberServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceTest.testBookServiceWithMockRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListNumberServiceTest.testAverageInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_4.*" />
+          <option name="PATTERN" value="lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_4" />
-      <option name="MAIN_CLASS_NAME" value="lesson_4.BookServiceTest" />
-      <option name="METHOD_NAME" value="testBookServiceWithMockRepository" />
+      <option name="PACKAGE_NAME" value="lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="lesson_6.ListNumberServiceTest" />
+      <option name="METHOD_NAME" value="testAverageInList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceTest.testBookServiceWithMockRepository2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListNumberServiceTest.testCompareAverageInList1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_4.*" />
+          <option name="PATTERN" value="lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_4" />
-      <option name="MAIN_CLASS_NAME" value="lesson_4.BookServiceTest" />
-      <option name="METHOD_NAME" value="testBookServiceWithMockRepository2" />
+      <option name="PACKAGE_NAME" value="lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="lesson_6.ListNumberServiceTest" />
+      <option name="METHOD_NAME" value="testCompareAverageInList1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListNumberServiceTest.testCompareAverageInList2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.task3.*" />
+          <option name="PATTERN" value="lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson3.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.task3.UserRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="lesson_6.ListNumberServiceTest" />
+      <option name="METHOD_NAME" value="testCompareAverageInList2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson_4 in homeworks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListNumberServiceTest.testCompareAverageInList3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_4.*" />
+          <option name="PATTERN" value="lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_4" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="lesson_6" />
+      <option name="MAIN_CLASS_NAME" value="lesson_6.ListNumberServiceTest" />
+      <option name="METHOD_NAME" value="testCompareAverageInList3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookServiceTest" />
-        <item itemvalue="JUnit.BookServiceTest.testBookServiceWithMockRepository" />
-        <item itemvalue="JUnit.BookServiceTest.testBookServiceWithMockRepository2" />
-        <item itemvalue="JUnit.lesson_4 in homeworks" />
-        <item itemvalue="JUnit.UserRepositoryTest" />
+        <item itemvalue="JUnit.ListNumberServiceTest" />
+        <item itemvalue="JUnit.ListNumberServiceTest.testCompareAverageInList3" />
+        <item itemvalue="JUnit.ListNumberServiceTest.testCompareAverageInList2" />
+        <item itemvalue="JUnit.ListNumberServiceTest.testCompareAverageInList1" />
+        <item itemvalue="JUnit.ListNumberServiceTest.testAverageInList" />
       </list>
     </recent_temporary>
   </component>
@@ -218,8 +220,16 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="lesson_6.ListNumber" memberName="average" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/homeworks$ListNumberServiceTest.ic" NAME="ListNumberServiceTest Coverage Results" MODIFIED="1703694138945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lesson_6.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/homeworks$NumberTest.ic" NAME="NumberTest Coverage Results" MODIFIED="1702819270378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lesson3.*</FILTER>
     </SUITE>
