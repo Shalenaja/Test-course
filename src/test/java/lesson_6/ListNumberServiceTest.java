@@ -36,7 +36,7 @@ public class ListNumberServiceTest {
         serviceTesting.AverageInList(expectedList1);
         serviceTesting.AverageInList(expectedList2);
         String factResult = serviceTesting.compareAverageInList(expectedList1, expectedList2);
-        assertTrue(factResult == "Первый список имеет большее среднее значение");
+        assertSame(factResult,"Первый список имеет большее среднее значение");
     }
 
     @Test
@@ -45,7 +45,7 @@ public class ListNumberServiceTest {
         serviceTesting.AverageInList(expectedList2);
         serviceTesting.AverageInList(expectedList1);
         String factResult = serviceTesting.compareAverageInList(expectedList2, expectedList1);
-        assertTrue(factResult == "Второй список имеет большее среднее значение");
+        assertSame(factResult,"Второй список имеет большее среднее значение");
     }
 
     @Test
@@ -54,6 +54,6 @@ public class ListNumberServiceTest {
         serviceTesting.AverageInList(expectedList2);
         serviceTesting.AverageInList(expectedList3);
         String factResult = serviceTesting.compareAverageInList(expectedList2, expectedList3);
-        assertTrue(factResult == "Средние значения равны");
+        assertSame(factResult,"Средние значения равны");
     }
 }

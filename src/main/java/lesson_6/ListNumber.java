@@ -16,7 +16,7 @@ package lesson_6;
 import java.util.List;
 
 public class ListNumber {
-    private List<Integer> array;
+    private final List<Integer> array;
     private Double average;
 
     public ListNumber(List<Integer> array) {

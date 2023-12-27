@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71607a4f-c03a-4b05-98a6-68c3e2c899e6" name="Changes" comment="add Les2 Vehicle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ListNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ListNumberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_6/ListNumberServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson_6/ListNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson_6/ListNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_6/ListNumberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson_6/ListNumberServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2ZOZGG2vtSYqmNhSpdYvthBoK3e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,11 +45,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/untitled",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/homeworks",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -172,7 +175,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702802940754</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,8 +229,12 @@
       </pinned-members>
     </pin-to-top-manager>
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/homeworks$ListNumberServiceTest.ic" NAME="ListNumberServiceTest Coverage Results" MODIFIED="1703694138945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/homeworks$ListNumberServiceTest.ic" NAME="ListNumberServiceTest Coverage Results" MODIFIED="1703700858592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lesson_6.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/homeworks$NumberTest.ic" NAME="NumberTest Coverage Results" MODIFIED="1702819270378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
